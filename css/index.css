@@ -1,0 +1,71 @@
+/* screen - index */
+
+.index {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 685px;
+  width: 390px;
+}
+
+.index .span1 {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+}
+
+.index .overlap-group1 {
+  align-self: center;
+  height: 191px;
+  margin-right: 6.0px;
+  margin-top: 219px;
+  position: relative;
+  width: 316px;
+  z-index: 2;
+}
+
+.index .overlap-group {
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 42px;
+  width: 312px;
+}
+
+.index .bn-c-th-n-vo {
+  cursor: pointer;
+  left: 177px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 0;
+  width: 126px;
+}
+
+.index .bm-vo-y-c-tip {
+  cursor: pointer;
+  left: 260px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-align: right;
+  text-decoration: underline;
+  top: 620px;
+  width: 78px;
+  z-index: 5;
+}
+
+.index .rectangle-1 {
+  background-color: var(--white);
+  height: 40px;
+  left: 0;
+  position: fixed;
+  top: 645px;
+  width: 390px;
+  z-index: 4;
+}
