@@ -1,0 +1,56 @@
+/* screen - iphone-14-7 */
+
+.iphone-14-7 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 199px;
+  height: 685px;
+  padding: 28px 0;
+  width: 390px;
+}
+
+.iphone-14-7 .overlap-group {
+  height: 330px;
+  position: relative;
+  width: 340px;
+}
+
+.iphone-14-7 .gp {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 0;
+  width: 340px;
+}
+
+.iphone-14-7 .input-bg {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #d0d3d8;
+  border-radius: 12px;
+  height: 259px;
+  left: 0;
+  position: absolute;
+  top: 71px;
+  width: 340px;
+}
+
+.iphone-14-7 .place {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 4.0px;
+  min-height: 51px;
+  text-align: center;
+  text-decoration: underline;
+  width: 126px;
+}
